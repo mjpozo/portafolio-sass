@@ -6772,9 +6772,29 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   stroke-linecap: round;
   /*shape-rendering: crispEdges;*/ }
 
+body {
+  background-color: #e5e5e5; }
+
 nav {
   background: transparent !important; }
   nav ul a {
     color: black !important; }
+
+.slider {
+  position: relative !important;
+  top: -61px !important; }
+
+.fa {
+  font-size: 100px !important;
+  color: yellow !important; }
+
+.item-uno {
+  background: white;
+  padding: 5% 3%;
+  width: 95%;
+  border-radius: 10px;
+  position: relative;
+  top: -150px;
+  z-index: 2; }
 
 /*# sourceMappingURL=main.css.map */
