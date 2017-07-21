@@ -6785,14 +6785,25 @@ nav {
   top: -61px !important; }
 
 .fa {
-  font-size: 100px !important;
-  color: yellow !important; }
+  font-size: 100px !important; }
+
+.fa-th {
+  color: #e91e63; }
+
+.fa-list {
+  color: #00bcd4; }
+
+.fa-bars {
+  color: #4caf50; }
+
+.item {
+  background: white; }
 
 .item-uno {
-  background: white;
   padding: 5% 3%;
   width: 95%;
-  border-radius: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
   position: relative;
   top: -150px;
   z-index: 2; }

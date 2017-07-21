@@ -17,16 +17,32 @@ nav {
 
 .fa {
 	font-size: 100px !important;
-	color: yellow !important;
+}
+
+.fa-th {
+	color: rgb(233, 30, 99);
+}
+
+.fa-list {
+	color: rgb(0, 188, 212);
+}
+
+.fa-bars {
+	color: rgb(76, 175, 80);
+}
+
+.item {
+	background: white;
 }
 
 .item-uno {
-	background: white;
 	padding: 5% 3%;
 	width: 95%;
-	border-radius: 10px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
 	position: relative;
 	top: -150px;
 	z-index: 2;
 }
+
 
