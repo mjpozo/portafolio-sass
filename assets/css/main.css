@@ -1997,7 +1997,7 @@ a {
 .z-depth-4, .modal, .item-cuatro img {
   box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.3); }
 
-.z-depth-5, .item, .product img, .item-cinco img {
+.z-depth-5, .item, .product img, .item-cinco img, .item-seis .treasure {
   box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.3); }
 
 .hoverable {
@@ -6891,5 +6891,22 @@ nav {
     color: #eb568f; }
   .item-cinco .fa-github-square {
     color: #333333; }
+
+.item-seis {
+  background: #f0f0f0;
+  position: relative;
+  top: 480px; }
+  .item-seis .treasure {
+    background: white; }
+  .item-seis .row .col {
+    padding: 4%; }
+  .item-seis .number {
+    font-size: 300%;
+    font-weight: 900; }
+  .item-seis .sign {
+    top: -20px; }
+  .item-seis .strong-black {
+    font-weight: bold;
+    color: black; }
 
 /*# sourceMappingURL=main.css.map */

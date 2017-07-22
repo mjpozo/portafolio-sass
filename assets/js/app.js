@@ -7,8 +7,10 @@ $(document).ready(function(){
 
 	//nav cambia de color cuando se baja la página
 	$(document).scroll(function(){
-		if (document.body.scrollTop > 100){
+		if ($(this).scrollTop() > 100){
 			$("nav").addClass("nav-scroll");
+		} else if ($(this).scrollTop() <= 100){
+			$("nav").removeClass("nav-scroll");
 		}
 	})
 
