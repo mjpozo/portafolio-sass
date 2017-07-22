@@ -1991,13 +1991,13 @@ a {
 .z-depth-2 {
   box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.3); }
 
-.z-depth-3 {
+.z-depth-3, .nav-scroll {
   box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12), 0 3px 5px -1px rgba(0, 0, 0, 0.3); }
 
 .z-depth-4, .modal {
   box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.3); }
 
-.z-depth-5 {
+.z-depth-5, .item, .product img {
   box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.3); }
 
 .hoverable {
@@ -6778,10 +6778,17 @@ body {
 nav {
   background: transparent !important; }
   nav ul a {
+    color: white !important; }
+
+.nav-scroll {
+  background: white !important; }
+  .nav-scroll ul a {
+    color: black !important; }
+  .nav-scroll .brand-logo {
     color: black !important; }
 
-.fa {
-  font-size: 100px !important; }
+.fa.uno {
+  font-size: 80px; }
 
 .fa-th {
   color: #e91e63; }
@@ -6818,9 +6825,37 @@ nav {
   background-attachment: fixed;
   position: relative;
   top: 480px;
-  color: white; }
+  color: white;
+  padding-bottom: 2%; }
 
 .video {
   border: 2px solid white; }
+
+.item-tres {
+  background: #f0f0f0;
+  position: relative;
+  top: 480px; }
+
+.product {
+  background: white;
+  position: relative;
+  top: 25px;
+  height: 96vh;
+  border: 6px solid #f0f0f0;
+  padding: 3%;
+  box-sizing: border-box;
+  border-radius: 15px; }
+  .product img {
+    width: 90%;
+    border-radius: 10px;
+    position: relative;
+    top: -20px; }
+  .product div {
+    position: relative;
+    bottom: 1px; }
+    .product div .product-footer {
+      padding: 6%; }
+      .product div .product-footer div span {
+        font-size: 200%; }
 
 /*# sourceMappingURL=main.css.map */

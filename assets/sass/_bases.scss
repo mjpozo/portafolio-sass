@@ -1,17 +1,28 @@
 
 body {
-	background-color: rgb(229, 229, 229);
+	background-color: $body_color;
 }
 
 nav {
 	background: transparent !important;
 	ul a {
-		color: black !important;
+		color: white !important;
 	}
 }
 
-.fa {
-	font-size: 100px !important;
+.nav-scroll {
+	background: $white_color !important;
+	ul a {
+		color: black !important;
+	}
+	.brand-logo {
+		color: black !important;
+	}
+	@extend .z-depth-3;
+}
+
+.fa.uno {
+	font-size: 80px;
 }
 
 .fa-th {
@@ -38,6 +49,7 @@ nav {
 	background: $white_color;
 	width: 95%;
 	padding: 5% 3%;
+	@extend .z-depth-5;
 }
 
 .item-uno {
@@ -57,8 +69,43 @@ nav {
 	position: relative;
 	top: 480px;
 	color: $white_color;
+	padding-bottom: 2%;
 }
 
 .video {
 	border: 2px solid $white_color;
+}
+
+.item-tres {
+	background: rgb(240, 240, 240);
+	position: relative;
+	top: 480px;
+}
+
+.product {
+	background: $white_color;
+	position: relative;
+	top: 25px;
+	height: 96vh;
+	border: 6px solid rgb(240, 240, 240);
+	padding: 3%;
+	box-sizing: border-box;
+	border-radius: 15px;
+	img {
+		width: 90%;
+		border-radius: 10px;
+		position: relative;
+		top: -20px;
+		@extend .z-depth-5;
+	}
+	div {
+		position: relative;
+		bottom: 1px;
+		.product-footer {
+			padding: 6%;
+			div span {
+				font-size: 200%;
+			}
+		}
+	}
 }
