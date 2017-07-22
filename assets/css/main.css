@@ -6780,10 +6780,6 @@ nav {
   nav ul a {
     color: black !important; }
 
-.slider {
-  position: relative !important;
-  top: -61px !important; }
-
 .fa {
   font-size: 100px !important; }
 
@@ -6805,7 +6801,7 @@ nav {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   position: relative;
-  top: -150px;
+  top: 480px;
   z-index: 2; }
 
 /*# sourceMappingURL=main.css.map */
