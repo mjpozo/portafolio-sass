@@ -1997,7 +1997,7 @@ a {
 .z-depth-4, .modal, .item-cuatro img {
   box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.3); }
 
-.z-depth-5, .item, .product img {
+.z-depth-5, .item, .product img, .item-cinco img {
   box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.3); }
 
 .hoverable {
@@ -6864,5 +6864,32 @@ nav {
   .item-cuatro img {
     border-radius: 10px;
     margin: 2% 0; }
+
+.item-cinco {
+  position: relative;
+  top: 480px; }
+  .item-cinco .row {
+    margin: 5% 0; }
+  .item-cinco img {
+    border-radius: 10px; }
+  .item-cinco .btn.network, .item-cinco .network.btn-large {
+    width: 4px !important;
+    background: white;
+    color: black;
+    box-shadow: none; }
+  .item-cinco .fa-facebook {
+    color: #40609e; }
+  .item-cinco .fa-google-plus {
+    color: #dd4b39; }
+  .item-cinco .fa-twitter {
+    color: #55acee; }
+  .item-cinco .fa-linkedin {
+    color: #2284bb; }
+  .item-cinco .fa-pinterest {
+    color: #cc2127; }
+  .item-cinco .fa-dribbble {
+    color: #eb568f; }
+  .item-cinco .fa-github-square {
+    color: #333333; }
 
 /*# sourceMappingURL=main.css.map */
