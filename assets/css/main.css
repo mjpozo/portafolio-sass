@@ -1994,7 +1994,7 @@ a {
 .z-depth-3, .nav-scroll {
   box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12), 0 3px 5px -1px rgba(0, 0, 0, 0.3); }
 
-.z-depth-4, .modal {
+.z-depth-4, .modal, .item-cuatro img {
   box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.3); }
 
 .z-depth-5, .item, .product img {
@@ -6857,5 +6857,12 @@ nav {
       padding: 6%; }
       .product div .product-footer div span {
         font-size: 200%; }
+
+.item-cuatro {
+  position: relative;
+  top: 480px; }
+  .item-cuatro img {
+    border-radius: 10px;
+    margin: 2% 0; }
 
 /*# sourceMappingURL=main.css.map */
