@@ -6792,16 +6792,35 @@ nav {
 .fa-bars {
   color: #4caf50; }
 
+.gris {
+  color: grey; }
+
+.title {
+  font-weight: bold; }
+
 .item {
-  background: white; }
+  background: white;
+  width: 95%;
+  padding: 5% 3%; }
 
 .item-uno {
-  padding: 5% 3%;
-  width: 95%;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   position: relative;
   top: 480px;
   z-index: 2; }
+
+.item-dos {
+  background: url(../../img/img_city.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: relative;
+  top: 480px;
+  color: white; }
+
+.video {
+  border: 2px solid white; }
 
 /*# sourceMappingURL=main.css.map */

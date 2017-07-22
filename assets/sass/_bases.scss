@@ -26,13 +26,21 @@ nav {
 	color: rgb(76, 175, 80);
 }
 
+.gris {
+	color: $grey_color;
+}
+
+.title {
+	font-weight: $negritas;
+}
+
 .item {
-	background: white;
+	background: $white_color;
+	width: 95%;
+	padding: 5% 3%;
 }
 
 .item-uno {
-	padding: 5% 3%;
-	width: 95%;
 	border-top-left-radius: 10px;
 	border-top-right-radius: 10px;
 	position: relative;
@@ -40,4 +48,17 @@ nav {
 	z-index: 2;
 }
 
+.item-dos {
+	background: url(../../img/img_city.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	position: relative;
+	top: 480px;
+	color: $white_color;
+}
 
+.video {
+	border: 2px solid $white_color;
+}
