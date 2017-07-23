@@ -1997,7 +1997,7 @@ a {
 .z-depth-4, .modal, .item-cuatro img {
   box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.3); }
 
-.z-depth-5, .item, .product img, .item-cinco img, .item-seis .treasure {
+.z-depth-5, .item, .product img, .item-cinco img, .item-seis .treasure, .item-siete .clients-img {
   box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.3); }
 
 .hoverable {
@@ -6895,7 +6895,8 @@ nav {
 .item-seis {
   background: #f0f0f0;
   position: relative;
-  top: 480px; }
+  top: 480px;
+  padding-bottom: 1% !important; }
   .item-seis .treasure {
     background: white; }
   .item-seis .row .col {
@@ -6908,5 +6909,11 @@ nav {
   .item-seis .strong-black {
     font-weight: bold;
     color: black; }
+
+.item-siete {
+  position: relative;
+  top: 480px; }
+  .item-siete .clients-img {
+    width: 100px; }
 
 /*# sourceMappingURL=main.css.map */

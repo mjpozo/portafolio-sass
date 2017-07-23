@@ -163,6 +163,7 @@ nav {
 	background: rgb(240, 240, 240);
 	position: relative;
 	top: 480px;
+	padding-bottom: 1% !important;
 	.treasure {
 		background: white;
 		@extend .z-depth-5;
@@ -180,5 +181,14 @@ nav {
 	.strong-black {
 		font-weight: $negritas;
 		color: $black_color;
+	}
+}
+
+.item-siete {
+	position: relative;
+	top: 480px;
+	.clients-img {
+		width: 100px;
+		@extend .z-depth-5;
 	}
 }
