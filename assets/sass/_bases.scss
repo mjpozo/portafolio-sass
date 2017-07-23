@@ -209,3 +209,15 @@ nav {
 		margin: 5% 0;
 	}
 }
+
+.item-nueve {
+	position: relative;
+	top: 480px;
+	img {
+		border-radius: 5px;
+		@extend .z-depth-5;
+	}
+	.mi-margin {
+		margin: 4% 0;
+	}
+}
