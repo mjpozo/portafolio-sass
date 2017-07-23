@@ -6915,5 +6915,19 @@ nav {
   top: 480px; }
   .item-siete .clients-img {
     width: 100px; }
+  .item-siete .cont-info {
+    padding-top: 8%; }
+
+.item-ocho {
+  position: relative;
+  top: 480px;
+  color: white;
+  padding: 6% 0;
+  background: url(../../img/about.jpg);
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat; }
+  .item-ocho .receive {
+    margin: 5% 0; }
 
 /*# sourceMappingURL=main.css.map */

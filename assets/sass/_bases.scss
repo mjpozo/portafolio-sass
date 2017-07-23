@@ -191,4 +191,21 @@ nav {
 		width: 100px;
 		@extend .z-depth-5;
 	}
+	.cont-info {
+		padding-top: 8%;
+	}
+}
+
+.item-ocho {
+	position: relative;
+	top: 480px;
+	color: $white_color;
+	padding: 6% 0;
+	background: url(../../img/about.jpg);
+	background-size: cover;
+	background-position: top;
+	background-repeat: no-repeat;
+	.receive {
+		margin: 5% 0;
+	}
 }
