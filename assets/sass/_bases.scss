@@ -221,3 +221,32 @@ nav {
 		margin: 4% 0;
 	}
 }
+
+.item-diez {
+	position: relative;
+	top: 480px;
+	color: $white_color;
+	background: url(../../img/img_city.jpg);
+	background-size: cover;
+	background-position: top;
+	background-repeat: no-repeat;
+	.row.parraf {
+		margin: 7% 0 10% 0;
+	}
+	.contact-us{
+		background: $pink_color;
+		color: $white_color;
+		padding: 5%;
+		width: 90%;
+		border-radius: 3px;
+		position: relative;
+		top: -20px;
+		@extend .z-depth-5;
+	}
+	.row.form {
+		background: $white_color;
+		color: $black_color;
+		padding: 0 5%;
+		border-radius: 7px;
+	}
+}
