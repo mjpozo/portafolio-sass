@@ -250,3 +250,15 @@ nav {
 		border-radius: 7px;
 	}
 }
+
+.item-once {
+	background-color: rgb(50, 52, 55);
+	position: relative;
+	top: 480px;
+	.small {
+		font-size: 70%;
+	}
+	hr {
+		color: $grey_color;
+	}
+}

@@ -6962,4 +6962,13 @@ nav {
     padding: 0 5%;
     border-radius: 7px; }
 
+.item-once {
+  background-color: #323437;
+  position: relative;
+  top: 480px; }
+  .item-once .small {
+    font-size: 70%; }
+  .item-once hr {
+    color: grey; }
+
 /*# sourceMappingURL=main.css.map */
