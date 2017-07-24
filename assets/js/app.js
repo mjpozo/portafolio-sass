@@ -1,9 +1,13 @@
 $(document).ready(function(){
+
 	//navbar
 	$(".button-collapse").sideNav();
 
 	//botones con dropdown
-	$('.dropdown-button').dropdown({hover: true});
+	$('.dropdown-button').dropdown({
+		hover: true,
+		constrainWidth: false
+	});
 
 	//nav cambia de color cuando se baja la página
 	$(document).scroll(function(){

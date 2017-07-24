@@ -7,6 +7,10 @@ nav {
 	background: transparent !important;
 	ul a {
 		color: $white_color !important;
+		font-size: 12px;
+	}
+	ul li .lateral {
+		color: rgb(77, 182, 172) !important;
 	}
 }
 
@@ -19,6 +23,15 @@ nav {
 		color: black !important;
 	}
 	@extend .z-depth-3;
+}
+
+.dropdown-content li > a, .dropdown-content li > span {
+	color: rgb(77, 182, 172) !important;
+}
+
+#sidenav-overlay {
+	background-color: rgba(250, 250, 250, 0) !important;
+	will-change: transparent !important;
 }
 
 .fa.uno {
@@ -54,6 +67,8 @@ nav {
 }
 
 .item {
+	position: relative;
+	top: 480px;
 	background: $white_color;
 	width: 95%;
 	padding: 5% 3%;
@@ -63,8 +78,6 @@ nav {
 .item-uno {
 	border-top-left-radius: 10px;
 	border-top-right-radius: 10px;
-	position: relative;
-	top: 480px;
 	z-index: 2;
 }
 
@@ -74,10 +87,15 @@ nav {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	position: relative;
-	top: 480px;
 	color: $white_color;
 	padding-bottom: 2%;
+	.who {
+		padding-right: 5%;
+	}
+}
+
+.parallax {
+	/*background: rgba(0,0,0,.7);*/
 }
 
 .video {
@@ -86,8 +104,6 @@ nav {
 
 .item-tres {
 	background: rgb(240, 240, 240);
-	position: relative;
-	top: 480px;
 }
 
 .product {
@@ -119,8 +135,6 @@ nav {
 }
 
 .item-cuatro {
-	position: relative;
-	top: 480px;
 	img {
 		border-radius: 10px;
 		margin: 2% 0;
@@ -152,11 +166,11 @@ nav {
 
 	.overlay {
 		position: absolute;
-		top: 0;
+		top: 2.5%;
 		bottom: 0;
 		left: 0;
 		right: 0;
-		height: 95%;
+		height: 93%;
 		width: 100%;
 		transition: .5s ease;
 		background-color: transparent;
@@ -180,8 +194,6 @@ nav {
 }
 
 .item-cinco {
-	position: relative;
-	top: 480px;
 	.row {
 		margin: 5% 0;
 	}
@@ -220,8 +232,6 @@ nav {
 
 .item-seis {
 	background: rgb(240, 240, 240);
-	position: relative;
-	top: 480px;
 	padding-bottom: 1% !important;
 	.treasure {
 		background: white;
@@ -244,8 +254,6 @@ nav {
 }
 
 .item-siete {
-	position: relative;
-	top: 480px;
 	.clients-img {
 		width: 100px;
 		@extend .z-depth-5;
@@ -256,8 +264,6 @@ nav {
 }
 
 .item-ocho {
-	position: relative;
-	top: 480px;
 	color: $white_color;
 	padding: 6% 0;
 	background: url(../../img/about.jpg);
@@ -270,20 +276,24 @@ nav {
 }
 
 .item-nueve {
-	position: relative;
-	top: 480px;
 	img {
 		border-radius: 5px;
+		margin-top: 4%;
 		@extend .z-depth-5;
 	}
 	.mi-margin {
-		margin: 4% 0;
+		margin: 2% 0;
+	}
+	a {
+		color: #bdbdbd ;
+	}
+	a:hover {
+		color: rgb(77, 182, 172);
+		transition: 0.5s;
 	}
 }
 
 .item-diez {
-	position: relative;
-	top: 480px;
 	color: $white_color;
 	background: url(../../img/img_city.jpg);
 	background-size: cover;
@@ -312,12 +322,20 @@ nav {
 
 .item-once {
 	background-color: rgb(50, 52, 55);
-	position: relative;
-	top: 480px;
-	.small {
-		font-size: 70%;
-	}
 	hr {
 		color: $grey_color;
+	}
+	img {
+		border-radius: 5px;
+	}
+	.link {
+		margin: 0 2%;
+	}
+	a {
+		color: $grey_color;
+	}
+	a:hover {
+		color: rgb(77, 182, 172);
+		transition: 0.5s;
 	}
 }
