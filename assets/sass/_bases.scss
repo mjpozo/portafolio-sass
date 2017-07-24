@@ -6,7 +6,7 @@ body {
 nav {
 	background: transparent !important;
 	ul a {
-		color: white !important;
+		color: $white_color !important;
 	}
 }
 
@@ -43,6 +43,14 @@ nav {
 
 .title {
 	font-weight: $negritas;
+}
+
+.caption {
+	padding-top: 10%;
+}
+
+.btn-see-more {
+	margin-top: 5%;
 }
 
 .item {
@@ -117,6 +125,57 @@ nav {
 		border-radius: 10px;
 		margin: 2% 0;
 		@extend .z-depth-4;
+	}
+	.cont-img {
+		position: relative;
+	}
+
+	.text {
+		display: none;
+		padding-top: 20%;
+		.like-btn {
+			border-radius: 10px;
+			width: 38%;
+			margin-left: 30%;
+			padding: 3px 0;
+		}
+		.pink {
+			background: $pink_color;
+		}
+		.light-blue {
+			background: $lightblue_color;
+		}
+		.red {
+			background: $red_color;
+		}
+	}
+
+	.overlay {
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		height: 95%;
+		width: 100%;
+		transition: .5s ease;
+		background-color: transparent;
+		border-radius: 10px;
+	}
+
+	.cont-img:hover .overlay {
+		background-color: rgba(0,0,0,.5);
+	}
+
+	.cont-img:hover .overlay .text {
+		height: 95%;
+		width: 95%;
+		display: block;
+		color: $white_color;
+		font-size: 10px;
+		position: absolute;
+		top: 5%;
+		left: 5%;
 	}
 }
 
@@ -234,7 +293,7 @@ nav {
 		margin: 7% 0 10% 0;
 	}
 	.contact-us{
-		background: $pink_color;
+		background: rgb(77, 182, 172);
 		color: $white_color;
 		padding: 5%;
 		width: 90%;
